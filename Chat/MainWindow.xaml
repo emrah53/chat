@@ -5,8 +5,52 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chat"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="500" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="379370.jpg" TileMode="None"/>
+        </Grid.Background>
+        <TextBox x:Name="tbIPAdressInput" Height="23" Margin="196,47,321,0" TextWrapping="Wrap" Text="127.0.0.0" VerticalAlignment="Top" Width="275" HorizontalAlignment="Center" Padding="5,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Button x:Name="btnVerbinden" Content="Verbinden" HorizontalAlignment="Left" Margin="476,47,0,0" VerticalAlignment="Top" Width="120" Height="23" Click="btnVerbinden_Click">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0.5"/>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="tblockChat" HorizontalAlignment="Left" Margin="196,109,0,0" TextWrapping="Wrap" Text="Bitte verbinden!" VerticalAlignment="Top" Height="222" Width="400" Foreground="#FF193E57" UseLayoutRounding="False" Padding="10">
+            <TextBlock.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#E5FFFFFF" Offset="1"/>
+                    <GradientStop Color="#00AAE9D6"/>
+                </LinearGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBox x:Name="tbEingabe" HorizontalAlignment="Left" Height="56" Margin="196,347,0,0" TextWrapping="Wrap" Text="Eingabe" VerticalAlignment="Top" Width="275" Padding="5">
+            <TextBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.9"/>
+            </TextBox.Background>
+            <TextBox.Effect>
+                <DropShadowEffect Color="#FFAAEEE1" BlurRadius="10"/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button x:Name="tbTextSenden" Content="SENDEN" HorizontalAlignment="Left" Margin="476,347,0,0" VerticalAlignment="Top" Width="120" Foreground="#FF65D6C2" BorderBrush="#FF65D6C2" Height="56" Opacity="0.75" FontFamily="Showcard Gothic" FontSize="24" Padding="0" BorderThickness="2" UseLayoutRounding="False" Click="tbTextSenden_Click" IsEnabled="False">
+            <Button.Background>
+                <SolidColorBrush Color="#FF1D5074"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Color="#FFAAEEE1" BlurRadius="10" Direction="225"/>
+            </Button.Effect>
+        </Button>
+        <Label x:Name="lblChatName" Content="C  H  A  T" HorizontalAlignment="Left" Margin="49,186,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Foreground="#FF217E71" FontSize="48" FontFamily="Showcard Gothic" Width="221" HorizontalContentAlignment="Center" Opacity="0.8">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.883"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="lblIP" Content="IP-Adresse:" HorizontalAlignment="Left" Margin="196,47,0,0" VerticalAlignment="Top" Width="135" Height="23" Foreground="#FFAEA6A6" VerticalContentAlignment="Center" Padding="0" BorderThickness="10,0,0,0" FontWeight="Bold"/>
+
     </Grid>
 </Window>
