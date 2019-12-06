@@ -1,7 +1,6 @@
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\bin\Debug\Chat.exe.config
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\bin\Debug\Chat.exe
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\bin\Debug\Chat.pdb
-C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\Chat.csprojResolveAssemblyReference.cache
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\MainWindow.g.cs
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\App.g.cs
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\Chat_MarkupCompile.cache
@@ -13,3 +12,4 @@ C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\Chat.csproj.GenerateRe
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\Chat.exe
 C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\Chat.pdb
+C:\Users\emrah.eyueboglu\source\repos\Chat\Chat\obj\Debug\Chat.csprojResolveAssemblyReference.cache
